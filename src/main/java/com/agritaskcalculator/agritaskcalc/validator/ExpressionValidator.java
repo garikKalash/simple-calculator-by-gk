@@ -13,6 +13,7 @@ public class ExpressionValidator {
            || expression.lastIndexOf("*") == expression.length() - 1) return false;
         expression = clearWhiteSpaces(expression);
 
+
         String[] splitPartsByPlus = expression.split("\\+");
         if(splitPartsByPlus.length == 0 || Arrays.asList(splitPartsByPlus).contains("")) return false;
 
