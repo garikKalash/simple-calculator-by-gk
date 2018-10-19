@@ -9,7 +9,8 @@ public class ExpressionValidator {
 
     public boolean isValid(String expression){
         if(expression == null || expression.isEmpty()) return false;
-
+        if(expression.lastIndexOf("+") == expression.length() - 1
+           || expression.lastIndexOf("*") == expression.length() - 1) return false;
         expression = clearWhiteSpaces(expression);
 
         String[] splitPartsByPlus = expression.split("\\+");
