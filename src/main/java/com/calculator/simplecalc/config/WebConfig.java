@@ -1,4 +1,4 @@
-package com.agritaskcalculator.agritaskcalc.config;
+package com.calculator.simplecalc.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

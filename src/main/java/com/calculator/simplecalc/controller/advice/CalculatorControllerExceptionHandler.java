@@ -1,6 +1,6 @@
-package com.agritaskcalculator.agritaskcalc.controller.advice;
+package com.calculator.simplecalc.controller.advice;
 
-import com.agritaskcalculator.agritaskcalc.exception.InvalidSimpleExpressionException;
+import com.calculator.simplecalc.exception.InvalidSimpleExpressionException;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

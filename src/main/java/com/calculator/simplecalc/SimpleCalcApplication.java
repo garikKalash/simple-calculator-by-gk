@@ -1,11 +1,11 @@
-package com.agritaskcalculator.agritaskcalc;
+package com.calculator.simplecalc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AgritaskcalcApplication {
+public class SimpleCalcApplication {
     public static void main(String[] args) {
-        SpringApplication.run(AgritaskcalcApplication.class, args);
+        SpringApplication.run(SimpleCalcApplication.class, args);
     }
 }

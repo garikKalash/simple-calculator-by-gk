@@ -1,8 +1,8 @@
-package com.agritaskcalculator.agritaskcalc.service.impl;
+package com.calculator.simplecalc.service.impl;
 
-import com.agritaskcalculator.agritaskcalc.exception.InvalidSimpleExpressionException;
-import com.agritaskcalculator.agritaskcalc.service.Evaluator;
-import com.agritaskcalculator.agritaskcalc.validator.ExpressionValidator;
+import com.calculator.simplecalc.exception.InvalidSimpleExpressionException;
+import com.calculator.simplecalc.service.Evaluator;
+import com.calculator.simplecalc.validator.ExpressionValidator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package com.agritaskcalculator.agritaskcalc.validator;
+package com.calculator.simplecalc.validator;
 
 import org.junit.Test;
 

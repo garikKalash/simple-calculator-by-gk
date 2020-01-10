@@ -1,9 +1,8 @@
-package com.agritaskcalculator.agritaskcalc.service.impl;
+package com.calculator.simplecalc.service.impl;
 
-import com.agritaskcalculator.agritaskcalc.validator.ExpressionValidator;
+import com.calculator.simplecalc.validator.ExpressionValidator;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.mock;
